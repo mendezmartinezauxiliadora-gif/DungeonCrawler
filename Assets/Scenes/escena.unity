@@ -3966,7 +3966,7 @@ PrefabInstance:
       objectReference: {fileID: 1501882416}
     - target: {fileID: 8117441798123678934, guid: f902ab6fc2b3d9749927f9bcadc77e56, type: 3}
       propertyPath: m_VersionIndex
-      value: 3816
+      value: 3819
       objectReference: {fileID: 0}
     - target: {fileID: 8498428802103828549, guid: f902ab6fc2b3d9749927f9bcadc77e56, type: 3}
       propertyPath: m_LocalScale.x
@@ -3974,7 +3974,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8498428802103828549, guid: f902ab6fc2b3d9749927f9bcadc77e56, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.0078
+      value: 6.0492363
       objectReference: {fileID: 0}
     - target: {fileID: 8498428802103828549, guid: f902ab6fc2b3d9749927f9bcadc77e56, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4173,6 +4173,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6887069cf590d5344818157c6574fd66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerScript
+  moveSpeed: 5
+  rotationSpeed: 90
+  cameraTransform: {fileID: 1412157638}
+  Gravity: -20
+  jumpHeight: 5
 --- !u!143 &450841086
 CharacterController:
   m_ObjectHideFlags: 0
@@ -19164,6 +19169,14 @@ PrefabInstance:
     - target: {fileID: 6116403234153689562, guid: f0a0937d3d5a9294aaa35c73a4f880aa, type: 3}
       propertyPath: m_Name
       value: Suelo
+      objectReference: {fileID: 0}
+    - target: {fileID: 6287739192049662473, guid: f0a0937d3d5a9294aaa35c73a4f880aa, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6287739192049662473, guid: f0a0937d3d5a9294aaa35c73a4f880aa, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
